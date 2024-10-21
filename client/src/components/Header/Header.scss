@@ -1,0 +1,13 @@
+@import "../../styles/variables.scss";
+.Header{
+    background-color: $bgc-header;
+}
+.header-top{
+    height: 10em;
+    padding: 2em 1em;
+    border-radius: 2.5em 2.5em 0 0;
+}
+.header-block{
+    height: 50em;
+    border-radius: 1.5em 1.5em 0 0;
+}

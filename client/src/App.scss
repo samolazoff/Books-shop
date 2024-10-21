@@ -1,4 +1,11 @@
 @import './styles/variables.scss';
-body{
-    background-color:  $clr-important;
+
+.App{
+    position: relative;
+    width: 1400px;
+}
+.logo{
+    position: absolute;
+    top: -20px;
+    
 }
