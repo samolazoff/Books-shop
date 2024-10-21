@@ -1,2 +1,15 @@
 @import './styles/reset.scss';
 @import './styles/variables.scss';
+
+@font-face {
+    font-family: "txt-bold";
+    src: url("/assets/fonts/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: "txt-usual";
+    src: url("/assets/fonts/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "txt-quote";
+    src: url("/assets/fonts/Roboto-ThinItalic.ttf");
+}
