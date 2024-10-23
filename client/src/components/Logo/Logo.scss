@@ -1,3 +1,10 @@
-.logo-svg{
-    height: 20em;
+@import '../../styles/variables.scss';
+
+.logo-txt{
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    color: $clr-active;
+    font-size: 5em;
+    font-family: "txt-logo";
 }

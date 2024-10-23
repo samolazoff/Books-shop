@@ -1,10 +1,13 @@
 import './Logo.scss';
-import logo from '../../assets/img/logo.svg';
 
 function Logo(props) {
     return (
-        <img src={logo} alt="logo" className='logo-svg'/>
-    );
+        <h1 className='logo-txt'>
+            <a href='/'>
+                BoOkS
+            </a>
+        </h1>
+);
 }
 
 export default Logo;             

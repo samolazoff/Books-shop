@@ -12,12 +12,7 @@ function App() {
            <Header className={fromArrayToString(classNameForHeader)}>
             
            </Header>
-           <h1 className='logo'>
-                <a href='/'>
-                    <Logo></Logo>
-                </a>
-           </h1>
-    
+           <Logo></Logo>
         </div>
     );
 }
