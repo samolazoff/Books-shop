@@ -1,18 +1,19 @@
 import './App.scss';
 
-import fromArrayToString from './utils/fromArrayToString.js';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Header from './components/Header/Header.jsx';
-import Logo from './components/Logo/Logo.jsx';
+import Layout from './components/Layout/Layout';
+import Home from './pages/Home/Home';
 
 function App() {
-    const classNameForHeader = ['Header', 'header-top'];
     return (
-        <div className="App">
-           <Header className={fromArrayToString(classNameForHeader)}>
-           </Header>
-           <Logo></Logo>
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path='/' element={<Layout/>}>
+                    <Route index element={<Home/>}></Route>
+                </Route>
+            </Routes>
+        </BrowserRouter>
     );
 }
 

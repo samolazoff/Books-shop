@@ -6,7 +6,7 @@ function Header(props) {
             <h1 className="logo"></h1>
             <nav>
                 <ul>
-                    <li><a href=""></a></li>
+                    <li><a href="">sdsdsd</a></li>
                 </ul>
             </nav>
         </header>
