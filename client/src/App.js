@@ -10,7 +10,6 @@ function App() {
     return (
         <div className="App">
            <Header className={fromArrayToString(classNameForHeader)}>
-            
            </Header>
            <Logo></Logo>
         </div>
