@@ -1,8 +1,9 @@
 @import "../../styles/variables.scss";
 
 .app-main-home{
+    width: 100%;
     position: relative;
     height: 1000px;
-    @include flex(row, space-between, flex-start);
+    @include flex(row, center, flex-start);
     
 }

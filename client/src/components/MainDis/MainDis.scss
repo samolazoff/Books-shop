@@ -1,0 +1,20 @@
+@import '../../styles/variables.scss';
+
+.main-dis{
+    width: 75%;
+    position: relative;
+    height: 500px;
+    @include flex(column, center, center);
+    opacity: 999;
+    color: $bgc-add;
+    &-title-box{
+        font-size: 5em;
+        color: $clr-main-title;
+        font-family: "txt-bold";
+    }
+    &-txt{
+        font-size: 2em;
+        font-family: "txt-usual";
+        text-align: justify;
+    }
+}
