@@ -19,9 +19,5 @@
 }
 
 body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color:  $bgc-main;
+    @include flex(column, center, center);
 }

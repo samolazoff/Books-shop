@@ -6,3 +6,9 @@
     @include flex(column, space-between, center);
 }
 
+.app main{
+    width: 100%;
+    background-color:  $bgc-main;
+}
+
+

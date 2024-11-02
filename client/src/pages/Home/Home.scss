@@ -1,0 +1,10 @@
+@import "../../styles/variables.scss";
+
+.app-main-home{
+    height: 1000px;
+    @include flex(row, space-between, flex-start);
+    background-image: url('../../assets/img/main.jpg');
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: 1400px;
+}

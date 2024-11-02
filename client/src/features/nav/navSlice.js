@@ -15,6 +15,10 @@ export const navSlice = createSlice({
         {
             name: 'Shop',
             href: '/shop',
+        },
+        {
+            name: 'Blog',
+            href: '/blog',
         }
     ],
     acauntItems: [
