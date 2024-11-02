@@ -3,7 +3,7 @@
 .app-header{
     @include flex(row, space-between, center);
     width: 100%;
-    height: 8em;
+    height: 7em;
     padding: 1em 2em;
     border-radius: 2.5em 2.5em 0 0;
     background-color: $bgc-header;

@@ -1,0 +1,15 @@
+@import "../../styles/variables.scss";
+
+.app-footer{
+    @include flex(row, center, center);
+    width: 100%;
+    height: 2em;
+    border-radius: 0 0 2.5em 2.5em;
+    font-size: 1.2em;
+    background-color: $bgc-header;
+    color: $bgc-main;
+}
+.app-footer a:hover{
+    color: $clr-active;
+    font-family: "txt-usual";
+}

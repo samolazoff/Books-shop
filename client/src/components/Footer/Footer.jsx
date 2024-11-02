@@ -1,10 +1,12 @@
+import './Footer.scss';
 
+import {Link} from 'react-router-dom';
 
 function Footer(){
     return(
-        <h1>
-            footer
-        </h1>
+        <footer className='app-footer'>
+            <Link to="https://github.com/samolazoff">by @Samolazoff</Link>
+        </footer>
     )
 }
 
