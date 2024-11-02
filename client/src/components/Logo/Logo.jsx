@@ -1,11 +1,13 @@
 import './Logo.scss';
 
+import {Link} from 'react-router-dom';
+
 function Logo() {
     return (
         <h1 className='logo-txt'>
-            <a href='/'>
+            <Link to='/'>
                 BoOkS
-            </a>
+            </Link>
         </h1>
 );
 }
