@@ -8,3 +8,12 @@ $clr-important: #FF9500;
 $clr-main-txt: #333333;
 $clr-main-title: #1D4E89;
 $clr-shadow: #E0E0E0;
+
+//mixin
+
+@mixin flex($dir, $jc, $ai) {
+    display: flex;
+    flex-direction: $dir;
+    justify-content: $jc;
+    align-items: $ai;
+}

@@ -1,14 +1,11 @@
 import './Header.scss';
 
+import Logo from '../Logo/Logo';
+
 function Header(props) {
     return (
-        <header className={props.className}>
-            <h1 className="logo"></h1>
-            <nav>
-                <ul>
-                    <li><a href="">sdsdsd</a></li>
-                </ul>
-            </nav>
+        <header className='app-header'>
+           <Logo/>
         </header>
     );
 }

@@ -4,6 +4,9 @@
     font-weight: normal;
     font-style: normal;
     text-decoration: none;
-    box-sizing: content-box;
+    box-sizing: border-box;
     color: inherit;
+}
+li{
+    list-style: none;
 }

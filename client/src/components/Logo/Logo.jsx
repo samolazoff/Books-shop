@@ -1,6 +1,6 @@
 import './Logo.scss';
 
-function Logo(props) {
+function Logo() {
     return (
         <h1 className='logo-txt'>
             <a href='/'>
