@@ -7,3 +7,6 @@
 .navbar-item a.active{
     color: $clr-main-title;
 }
+.navbar-item a:hover{
+    color: $clr-active;
+}

@@ -1,0 +1,10 @@
+@import "../../styles/variables.scss";
+
+.navbar-item__login{
+    padding: .25em .5em;
+    border: 1px solid $bgc-add;
+    border-radius: 10px;
+}
+.navbar-item__login:hover{
+    border-color: $clr-active;
+}
