@@ -1,6 +1,10 @@
 @import "../../styles/variables.scss";
 
+.navbar{
+   @include flex(row, space-between, center);
+   gap: 4em;
+}; 
 .navbar-items{
    @include flex(row, space-between, center);
    gap: 2em;
-}
+}; 
