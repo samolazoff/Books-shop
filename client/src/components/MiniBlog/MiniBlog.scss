@@ -1,7 +1,34 @@
 @import '../../styles/variables.scss';
 
 .mini-blog{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 25%;
+    @include flex(column, flex-start, center);
+    gap: 20px;
     &-title{
-        
+        width: 100%;
+        padding: .2em 1em;
+        border-radius: 20px;
+        background-color: $bgc-main;
+        box-shadow: 10px 10px 40px 10px $clr-shadow;
+        font-size: 3em;
+        font-family: "txt-bold";
+        text-align: start;
+    }
+    &-news{
+        @include flex(column, flex-start, center);
+        gap: 20px;
+        font-size: 1em;
+        font-family: "txt-bold";
+        text-align: justify;
+    }
+    &-news_items{
+        width: 100%;
+        padding: 1em;
+        border-radius: 20px;
+        box-shadow: 10px 10px 40px 10px $clr-shadow;
+        background-color: $bgc-main;
     }
 }
