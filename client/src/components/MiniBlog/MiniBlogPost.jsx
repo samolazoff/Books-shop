@@ -13,7 +13,9 @@ function MiniBlogPost(props) {
                 <p className='coment-txt'>{data.coment}</p>
             </Link>
             <Link link to={'/post:'+data.id} className='user-box'>
-                <img src={data.img} alt={data.user} />
+                {
+                    data.img===''?<div className="none-img"></div>:<img src={data.img} alt={data.user} />
+                }
                 <span className='bloger-name'>{data.user}</span>
             </Link>
             

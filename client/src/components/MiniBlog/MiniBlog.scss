@@ -42,8 +42,14 @@
             font-family: "txt-quote";
         }
         .user-box{
-            @include flex(row, flex-end, flex-start);
-            align-self: flex-end;
+            @include flex(row, flex-end, center);
+            gap: 10px;
+        }
+        .none-img{
+            width: 30px;
+            height: 30px;
+            background-color: $clr-shadow;
+            border-radius: 50%;
         }
     }
 }
