@@ -28,7 +28,14 @@ export const miniBloglice = createSlice({
                 author: 'Writer Writer Big',
                 coment: 'Qmnhf fkj laasdas drt 468242sa6d 4asd4a8f s4d65ad.8ad4f89 af98sadf. stu rjjru r jfahadfajoic jadflkandf,ajdfhnaudfja.dfhfg hfg hnhagkb aldfa U;IOrj anfkj hdgh dghd adfja kfa dnfasdfn aofuioaj adb amj apo dfjafk awbe riuqjeiofjdfbadfjahi au.df'
             },
-
+            {
+                id: '123123qwqwqw12312456',
+                user: 'User UUser',
+                img: '',
+                book: 'Mouse and cat and dog',
+                author: 'Writer Writer Big',
+                coment: 'Qmnhf fkj laasdas drt 468242sa6d 4asd4a8f s4d65ad.8ad4f89 af98sadf. stu rjjru r jfahadfajoic jadflkandf,ajdfhnaudfja.dfhfg hfg hnhagkb aldfa U;IOrj anfkj hdgh dghd adfja kfa dnfasdfn aofuioaj adb amj apo dfjafk awbe riuqjeiofjdfbadfjahi au.df'
+            },
         ]
     },
     reducers: {  }

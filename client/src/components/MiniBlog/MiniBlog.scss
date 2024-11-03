@@ -20,15 +20,30 @@
     &-news{
         @include flex(column, flex-start, center);
         gap: 20px;
-        font-size: 1em;
-        font-family: "txt-bold";
+        font-size: 1.2em;
+        font-family: "txt-usely";
         text-align: justify;
     }
-    &-news_items{
+    &-news__items{
         width: 100%;
         padding: 1em;
         border-radius: 20px;
         box-shadow: 10px 10px 40px 10px $clr-shadow;
         background-color: $bgc-main;
+        h3.title{
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            @include flex(column, flex-start, flex-start);
+            font-family: "txt-bold";
+            border-bottom: .5px solid $clr-shadow;
+        }
+        .coment-txt{
+            margin-bottom: 10px;
+            font-family: "txt-quote";
+        }
+        .user-box{
+            @include flex(row, flex-end, flex-start);
+            align-self: flex-end;
+        }
     }
 }
