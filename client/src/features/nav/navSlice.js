@@ -1,4 +1,4 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice } from '@reduxjs/toolkit';
 
 export const navSlice = createSlice({
   name: 'nav',
@@ -33,8 +33,8 @@ export const navSlice = createSlice({
     ]
   },
   reducers: {  }
-})
+});
 
 // export const { } = navSlice.actions;
 
-export default navSlice.reducer
+export default navSlice.reducer;
