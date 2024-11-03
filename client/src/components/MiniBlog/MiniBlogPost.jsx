@@ -14,7 +14,7 @@ function MiniBlogPost(props) {
             </Link>
             <Link link to={'/post:'+data.id} className='user-box'>
                 {
-                    data.img===''?<div className="none-img"></div>:<img src={data.img} alt={data.user} />
+                    data.img===''?<div className="none-img"></div>:<img src={data.img} alt={data.user} className='user-img'/>
                 }
                 <span className='bloger-name'>{data.user}</span>
             </Link>
