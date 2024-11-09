@@ -2,5 +2,17 @@
 
 .block-start{
     width: 75%;
+    padding: 0 2.5em;
     @include flex(column, flex-start, flex-start);
+    &-titles{
+        width: 100%;
+        @include flex(row, space-between, center);
+        font-family: "txt-bold";
+        .block-title{
+            font-size: 3em;
+        }
+        .what-are-books{
+            font-size: 3em;
+        }
+    }
 }
