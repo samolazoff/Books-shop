@@ -1,0 +1,28 @@
+@import "../../../styles/variables.scss";
+
+.buttons-search{
+    @include flex(row, center, center);
+    gap: 2em;
+    padding: 1em 2em;
+    width: 100%;
+    &-item{
+        &__btn{
+            padding: .5em 1em;
+            background-color: $bgc-main;
+            border-color: $clr-shadow;
+            border-width: 1px;
+            font-family: "txt-usual";
+            font-size: 1.1em;
+            transition:.5s
+        }
+        &__btn:hover{
+            background-color: $clr-active;
+            color: $bgc-add;
+        }
+        &__btn:active{
+            color: $clr-important;
+        }
+    }
+}
+
+// @include flex(column, center, center);

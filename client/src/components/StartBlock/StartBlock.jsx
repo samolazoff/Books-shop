@@ -2,17 +2,16 @@ import './StartBlock.scss';
 
 import {Link} from 'react-router-dom';
 
+import ButtonsSearch from './ButtonsSearch/ButtonsSearch';
+
 function StartBlock(){
     return (
         <section className="block-start">
-            <ul className="buttons-search">
-                <li className="buttons-search-item">
-                    <button type='button' className='buttons-search-item__btn'>
-                        Top all time
-                    </button>
-                </li>
-            </ul>
-            <h2 className="block-title">Shop</h2>
+            <ButtonsSearch></ButtonsSearch>
+            <div className="block-start-titles">
+                <h2 className="block-title">Shop</h2>
+                <span className="what-are-books">Random 8 books</span>
+            </div>
             <ul className="list-books">
                 <li className="list-books-item">
                     <Link>

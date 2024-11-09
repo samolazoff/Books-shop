@@ -1,0 +1,6 @@
+@import "../../styles/variables.scss";
+
+.block-start{
+    width: 75%;
+    @include flex(column, flex-start, flex-start);
+}
