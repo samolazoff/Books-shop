@@ -7,12 +7,13 @@
     &-titles{
         width: 100%;
         @include flex(row, space-between, center);
-        font-family: "txt-bold";
         .block-title{
             font-size: 3em;
+            font-family: "txt-bold";
         }
         .what-are-books{
             font-size: 3em;
+            font-family: "txt-usual";
         }
     }
 }
