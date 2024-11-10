@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 export const booksSlice = createSlice({
-    name: 'booksSlice',
+    name: 'books',
     initialState: {
         books: [
             {
@@ -9,7 +9,6 @@ export const booksSlice = createSlice({
                 author: 'F.M.Dostaevskiy',
                 id_author: '1',
                 title: 'Time is time',
-                id_book: '1',
                 top: '8.46',
                 price: '4.96',
             },
@@ -18,7 +17,6 @@ export const booksSlice = createSlice({
                 author: 'F.M.Dostaevskiy',
                 id_author: '1',
                 title: 'Time is time',
-                id_book: '1',
                 top: '8.46',
                 price: '4.96',
             },
@@ -27,7 +25,6 @@ export const booksSlice = createSlice({
                 author: 'F.M.Dostaevskiy',
                 id_author: '1',
                 title: 'Time is time',
-                id_book: '1',
                 top: '8.46',
                 price: '4.96',
             },
@@ -36,7 +33,6 @@ export const booksSlice = createSlice({
                 author: 'F.M.Dostaevskiy',
                 id_author: '1',
                 title: 'Time is time',
-                id_book: '1',
                 top: '8.46',
                 price: '4.96',
             },
@@ -45,7 +41,6 @@ export const booksSlice = createSlice({
                 author: 'F.M.Dostaevskiy',
                 id_author: '1',
                 title: 'Time is time',
-                id_book: '1',
                 top: '8.46',
                 price: '4.96',
             },
@@ -54,7 +49,6 @@ export const booksSlice = createSlice({
                 author: 'F.M.Dostaevskiy',
                 id_author: '1',
                 title: 'Time is time',
-                id_book: '1',
                 top: '8.46',
                 price: '4.96',
             },
@@ -63,7 +57,6 @@ export const booksSlice = createSlice({
                 author: 'F.M.Dostaevskiy',
                 id_author: '1',
                 title: 'Time is time',
-                id_book: '1',
                 top: '8.46',
                 price: '4.96',
             },
@@ -72,7 +65,6 @@ export const booksSlice = createSlice({
                 author: 'F.M.Dostaevskiy',
                 id_author: '1',
                 title: 'Time is time',
-                id_book: '1',
                 top: '8.46',
                 price: '4.96',
             },
