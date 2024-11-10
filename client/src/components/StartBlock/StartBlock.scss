@@ -3,7 +3,7 @@
 .block-start{
     width: 75%;
     padding: 0 2.5em;
-    margin-top: 7em;
+    margin-bottom: 2em;
     @include flex(column, flex-start, flex-start);
     &-titles{
         width: 100%;

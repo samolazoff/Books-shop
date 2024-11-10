@@ -3,6 +3,5 @@
 .app-main-home{
     width: 100%;
     position: relative;
-    height: 1000px;
     @include flex(column, flex-start, flex-start);
 }

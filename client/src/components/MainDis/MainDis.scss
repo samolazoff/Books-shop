@@ -4,7 +4,6 @@
     width: 75%;
     position: relative;
     height: 500px;
-    margin-top: 5em;
     @include flex(column, center, center);
     opacity: 999;
     color: $bgc-add;
