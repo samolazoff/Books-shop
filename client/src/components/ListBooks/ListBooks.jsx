@@ -1,4 +1,4 @@
-import './ListBooks';
+import './ListBooks.scss';
 
 import ListBooksItem from './ListBooksItem/ListBooksItem';
 

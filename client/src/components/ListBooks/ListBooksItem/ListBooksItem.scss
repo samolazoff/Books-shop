@@ -1,0 +1,27 @@
+@import '../../../styles/variables.scss';
+
+.list-books-item{
+    width: 200px;
+    height: 380px;
+    padding: 1em;
+    @include flex(column, space-between, center);
+    gap: .25em;
+    border-radius: 15px;
+    box-shadow: 10px 2px 10px 7px $clr-shadow;
+    background-color: $bgc-main;
+}
+.books-item__img{
+    width: 180px;
+}
+.books-item__title{
+    align-self: flex-start;
+    font-family: "txt-bold";
+}
+.books-item__author{
+    align-self: flex-start;
+    font-family: "txt-usual";
+}
+.list-books-item-footer{
+    width: 100%;
+    @include flex(row, space-between, center);
+}

@@ -1,0 +1,9 @@
+@import '../../styles/variables.scss';
+
+.list-books{
+    width: 100%;
+    @include flex(row, space-between, center);
+    flex-wrap: wrap;
+    gap: 1.5em;
+    margin-top: 2em;
+}
