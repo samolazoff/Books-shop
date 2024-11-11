@@ -4,7 +4,7 @@ function Registration(){
     return(
        <main className="registration">
             <h2 className="block-title">Registration</h2>
-            <form action="/registration" method="post" >
+            <form action="http://localhost:3001/registration" method="post" >
                 <div className="registration-wrap">
                     <div className="wrap-id">
                         <div className="wrap-input">
