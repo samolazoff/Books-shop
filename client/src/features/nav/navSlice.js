@@ -28,7 +28,7 @@ export const navSlice = createSlice({
         }, 
         {
             name: 'Sign up',
-            href: '/regisration',
+            href: '/registration',
         }
     ]
   },
